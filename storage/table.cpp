@@ -5,6 +5,7 @@
 #include "row.h"
 #include "mem_alloc.h"
 
+//WYZ learn git
 void table_t::init(Catalog * schema) {
 	this->table_name = schema->table_name;
 	this->schema = schema;
